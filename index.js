@@ -131,7 +131,6 @@ gulp.task('serve', function (callback) {
       'watch:icons'
     ],
     'connect',
-    'connect:open',
     callback
   );
 });
